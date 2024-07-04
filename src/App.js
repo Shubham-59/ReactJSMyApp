@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import login from './Components/login'; // Correct the import to use a capital 'L'
 
 function App() {
   return (
@@ -15,9 +16,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React with Shubham
         </a>
       </header>
+      <login /> 
     </div>
   );
 }
